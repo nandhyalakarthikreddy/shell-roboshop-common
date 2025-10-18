@@ -17,4 +17,5 @@ VALIDATE $? "Adding the user"
 
 rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"
 VALIDATE $? "Setting up the root permissions"
+
 print_total_time
