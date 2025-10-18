@@ -2,6 +2,7 @@
 
 source ./common.sh
 app_name=catalogue
+check_root
 app_setup
 Nodejs
 systemd_setup
